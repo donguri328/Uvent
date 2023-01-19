@@ -272,3 +272,12 @@ footer h4 {
 .button_plus a:hover:after {
   right: 1.4rem;
 }
+
+/*カレンダー
+-------------------------------------*/
+.calendar {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
