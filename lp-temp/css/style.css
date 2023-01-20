@@ -281,12 +281,33 @@ footer h4 {
     max-width: 100%;
   }
 
-/*マップ用
--------------------------------------*/
-.name{
-    font-size: 16px;
-    font-weight: bold;
+/*****イベント詳細関連*****/
+.detail {
+    font-size:90%;
+    border: none;
 }
-.address{
-    font-size: 10px;
+.main-contents {
+    width: 80%;
+    padding: 10px;
+    background-color: #fff;
+    float: left;
+    border-right:3px solid #bfd4f4
+} 
+.side-menu {
+    width: 20%;
+    padding: 10px;
+    background-color: #FFF;
+    float: right;
+    min-height: 60%;
+}
+#contoributor {
+    color: black;
+}
+
+/****投稿者詳細画面関連****/
+.icon {
+    float: left;
+    max-width: 200px;
+    max-height: 150px;
+
 }
