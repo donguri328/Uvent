@@ -1,10 +1,12 @@
 function initMap() {
     var opts = {
         zoom: 12,
+        //マップの中心座標
         center: new google.maps.LatLng(33.9515, 131.2467)
     };
     var map = new google.maps.Map(document.getElementById("map"), opts);
 
+    //ピンの座標指定
     var m_latlng1 = new google.maps.LatLng(33.9479435,131.2828868);
     var marker1 = new google.maps.Marker({
         position: m_latlng1,
