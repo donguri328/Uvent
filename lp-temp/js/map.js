@@ -16,7 +16,7 @@ function initMap() {
     var myInfoWindow = new google.maps.InfoWindow({
         // 情報ウインドウの内容かくところ
         content: `<div class="name">
-                    田植えイベント
+                    チョーコクンファンミーティング
                     </div>
                     <div class="address">
                     常盤公園
@@ -29,7 +29,7 @@ function initMap() {
         });
     });
 
-    var m_latlng2 = new google.maps.LatLng(33.998403,131.211729);
+    var m_latlng2 = new google.maps.LatLng(33.9563797, 131.2725447);
     var marker2 = new google.maps.Marker({
         position: m_latlng2,
         map: map
@@ -38,10 +38,10 @@ function initMap() {
     var myInfoWindow = new google.maps.InfoWindow({
         // 情報ウインドウの内容かくところ
         content: `<div class="name">
-                    もちまきやります！
+                    献血
                     </div>
                     <div class="address">
-                    自宅付近
+                    山口大学工学部
                 　　</div>`
     });
     myInfoWindow.open(map, marker2);
